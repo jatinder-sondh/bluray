@@ -5317,7 +5317,7 @@ pre.code{ border-left-width: 3px; border-left-style: solid; font-size: 12px; pad
 }
 /* Predefined classes for the background texture and/or image */
 .sc_parallax_image_1 {
-	background-image:url(../images/1920x1281.png); 
+	background-image:url(../images/bg.png); 
 	background-position:80% 50%;
 }
 

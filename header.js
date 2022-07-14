@@ -8,15 +8,15 @@ class MyHeader extends HTMLElement {
 						<div class="main">
 							<div class="menu_user_left">
 								<div class="menuUsItem menuItemLeft text1_left_side">
-									Got a Plumbing Emergency? &nbsp;
+									Any query? &nbsp;
 								</div>
 								<div class="menuUsItem menuItemLeft text2_left_side">
-									<a href="#">Call us now: 858.536.4161</a>&nbsp;
+									<a href="tel:858.536.4161">Call us now: 858.536.4161</a>&nbsp;
 								</div>
 							</div>
 							<div class="menu_user_right">
 								<div class="menuUsItem menuItemRight text2_right_side">
-									<a href="#">Get a free quote.</a>&nbsp;
+									<a href="mailto:info@blurayconcreting.com.au">info@blurayconcreting.com.au</a>&nbsp;
 								</div>
 								<div class="menuUsItem menuItemRight text1_right_side">
 									Want an approximate price?&nbsp;
@@ -28,8 +28,8 @@ class MyHeader extends HTMLElement {
 						<div class="main">
 							<div class="logo logo_left">
 								<a href="index.html">
-									<img src="images/128x54.png" class="logo_main" alt="">
-									<img src="images/128x54.png" class="logo_fixed" alt="">
+									<img src="images/logo.svg" class="logo_main" alt="">
+									<img src="images/logo.svg" class="logo_fixed" alt="">
 									<span class="logo_slogan">Plumbing services</span>
 								</a>
 							</div>

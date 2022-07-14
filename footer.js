@@ -6,13 +6,13 @@ class MyFooter extends HTMLElement {
 					<div class="main footerWidget widget_area">
 						<div class="columnsWrap">
 							<aside class="columns1_4 widgetWrap widget widget_text">
-								<h3 class="title">About</h3>
+								<h3 class="title">Address</h3>
 								<div class="textwidget">
 									<figure class="sc_image sc_image_shape_square">
 										<img src="images/186x76.png" alt="" />
 									</figure>
 									<br /> 378 Main Street London England
-									<br /> info@themerex.net
+									<br /> info@blurayconcreting.com.au 
 									<br /> +1 (44) 123-45-67
 								</div>
 							</aside>
@@ -21,57 +21,27 @@ class MyFooter extends HTMLElement {
 								<div class="menu-services-container">
 									<ul id="menu-services" class="menu">
 										<li class="menu-item">
-											<a href="#">Frozen Pipes</a>
+											<a href="#">Excavations Services</a>
 										</li>
 										<li class="menu-item">
-											<a href="#">Common Repairs</a>
+											<a href="#">Soil Removal Services</a>
 										</li>
 										<li class="menu-item">
-											<a href="#">Clogged Drains</a>
-										</li>
-										<li class="menu-item">
-											<a href="#">Sewage Backups</a>
-										</li>
-										<li class="menu-item">
-											<a href="#">Plumbing Repairs</a>
-										</li>
-										<li class="menu-item">
-											<a href="#">Camera Inspection</a>
-										</li>
-										<li class="menu-item">
-											<a href="#">System Maintenance</a>
-										</li>
-										<li class="menu-item">
-											<a href="#">Trenchless Pipe</a>
-										</li>
-										<li class="menu-item">
-											<a href="#">Leak Prevention</a>
-										</li>
-										<li class="menu-item">
-											<a href="#">Emergency Services</a>
+											<a href="#">Rock Breaking & Removal</a>
 										</li>
 									</ul>
 								</div>
 							</aside>
 							<aside class="columns1_4 widgetWrap widget widget_text">
-								<h3 class="title">newsletter</h3>
+								<h3 class="title">About</h3>
 								<div class="textwidget">
 									Yes, I am interested in receiving the free newsletter which has recent information
 									on plumbing and plumbing news for my home and my family. I prefer to receive the
 									newsletter.
-									<div class="sc_emailer inputSubmitAnimation sFocus rad4 opened">
-										<form>
-											<input type="text" class="sInput" name="email" value=""
-												placeholder="Enter you email">
-										</form>
-										<a href="#"
-											class="sc_button sc_button_style_global sc_button_size_medium roundButton global medium sc_emailer_button searchIcon aIco mail"
-											title="Submit" data-group="E-mail collector group">subscribe</a>
-									</div>
 								</div>
 							</aside>
 							<aside class="columns1_4 widgetWrap widget widget_text">
-								<h3 class="title">Plumbing Service Coupon</h3>
+								<h3 class="title">Gallery</h3>
 								<div class="textwidget">
 									<a href="#">
 										<figure class="sc_image  sc_image_shape_square">
@@ -86,10 +56,7 @@ class MyFooter extends HTMLElement {
 				<!-- ./blackStyle -->
 				<div class="copyWrap">
 					<div class="copy main">
-						<div class="copyright">&copy; 2015 All Rights Reserved
-							<a href="#">Terms of Use</a>
-							and
-							<a href="#">Privacy Policy</a>
+						<div class="copyright">&copy; 2020 All Rights Reserved
 						</div>
 						<div class="copy_socials socPage">
 							<ul>
