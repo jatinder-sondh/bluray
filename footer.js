@@ -9,7 +9,7 @@ class MyFooter extends HTMLElement {
 								<h3 class="title">Address</h3>
 								<div class="textwidget">
 									<figure class="sc_image sc_image_shape_square">
-										<img src="images/186x76.png" alt="" />
+										<img src="images/logo.png" alt="" />
 									</figure>
 									<br /> 378 Main Street London England
 									<br /> info@blurayconcreting.com.au 
@@ -21,13 +21,22 @@ class MyFooter extends HTMLElement {
 								<div class="menu-services-container">
 									<ul id="menu-services" class="menu">
 										<li class="menu-item">
-											<a href="#">Excavations Services</a>
+											Excavations Services
 										</li>
 										<li class="menu-item">
-											<a href="#">Soil Removal Services</a>
+											Soil Removal Services
 										</li>
 										<li class="menu-item">
-											<a href="#">Rock Breaking & Removal</a>
+											Rock Breaking
+										</li>	
+										<li class="menu-item">
+											Rock Removal
+										</li>	
+										<li class="menu-item">
+											Steel Fixing
+										</li>	
+										<li class="menu-item">
+											<a href="./services.html">View all </a>
 										</li>
 									</ul>
 								</div>
@@ -35,9 +44,8 @@ class MyFooter extends HTMLElement {
 							<aside class="columns1_4 widgetWrap widget widget_text">
 								<h3 class="title">About</h3>
 								<div class="textwidget">
-									Yes, I am interested in receiving the free newsletter which has recent information
-									on plumbing and plumbing news for my home and my family. I prefer to receive the
-									newsletter.
+									We Can Provide Our Clients with All Types of Concrete Including Plain, Coloured, Exposed
+Aggregate, Stencil, Slate as well as Retaining Walls and Earth Excavation Services.
 								</div>
 							</aside>
 							<aside class="columns1_4 widgetWrap widget widget_text">
@@ -53,10 +61,9 @@ class MyFooter extends HTMLElement {
 						</div>
 					</div>
 				</footer>
-				<!-- ./blackStyle -->
 				<div class="copyWrap">
 					<div class="copy main">
-						<div class="copyright">&copy; 2020 All Rights Reserved
+						<div class="copyright">&copy; 2022 All Rights Reserved
 						</div>
 						<div class="copy_socials socPage">
 							<ul>
@@ -66,14 +73,6 @@ class MyFooter extends HTMLElement {
 								</li>
 								<li>
 									<a class="social_icons icon-facebook" target="_blank" href="http://facebook.com">
-									</a>
-								</li>
-								<li>
-									<a class="social_icons icon-skype-1" target="_blank" href="#">
-									</a>
-								</li>
-								<li>
-									<a class="social_icons icon-youtube-play" target="_blank" href="http://youtube.com">
 									</a>
 								</li>
 							</ul>

@@ -8,10 +8,11 @@ class MyHeader extends HTMLElement {
 						<div class="main">
 							<div class="menu_user_left">
 								<div class="menuUsItem menuItemLeft text1_left_side">
-									Any query? &nbsp;
+									Let's collaborate! &nbsp;
 								</div>
 								<div class="menuUsItem menuItemLeft text2_left_side">
-									<a href="tel:858.536.4161">Call us now: 858.536.4161</a>&nbsp;
+									<a href="tel:0490 088 332">0490 088 332</a>,&nbsp;
+									<a href="tel:0469 016 819">0469 016 819</a>&nbsp;
 								</div>
 							</div>
 							<div class="menu_user_right">
@@ -28,9 +29,8 @@ class MyHeader extends HTMLElement {
 						<div class="main">
 							<div class="logo logo_left">
 								<a href="index.html">
-									<img src="images/logo.svg" class="logo_main" alt="">
-									<img src="images/logo.svg" class="logo_fixed" alt="">
-									<span class="logo_slogan">Plumbing services</span>
+									<img src="images/logo.png" class="logo_main" alt="">
+									 <img src="images/logo.svg" class="logo_fixed" alt="">
 								</a>
 							</div>
 							<div class="responsiveMenu">

@@ -437,7 +437,7 @@
 }
 .sc_dropcaps.sc_dropcaps_style_1 .sc_dropcap {
   color: #fff;
-  background-color: #00afda;
+  background-color: #104378;
 }
 .sc_dropcaps.sc_dropcaps_style_2 .sc_dropcap {
   color: #fff;
@@ -964,14 +964,14 @@
   display: inline-block;
   color: #fff;
   padding: 3px 4px;
-  background-color: #00afda;
+  background-color: #104378;
 }
 .sc_highlight.sc_highlight_style_2 {
   text-decoration: none;
   font-weight: 600;
 }
 .sc_highlight.sc_highlight_style_3 {
-  color: #00abd3;
+  color: #e06711;
   font-size: 4.375em;
   font-weight: 700;
   text-transform: uppercase;
@@ -979,7 +979,7 @@
   margin-bottom: 10px;
 }
 .sc_highlight.sc_highlight_style_4 {
-  color: #00abd3;
+  color: #e06711;
   font-size: 45px;
   font-weight: 500;
   display: block;
@@ -1721,7 +1721,7 @@
 }
 .sc_skills_counter .sc_skills_item.sc_skills_style_3 .sc_skills_count {
   font-weight: 100;
-  color: #00abd3;
+  color: #e06711;
   padding: 0 10px;
   position: relative;
   overflow: hidden;
@@ -1744,7 +1744,7 @@
 }
 .sc_skills_counter .sc_skills_item.sc_skills_style_4 .sc_skills_count {
   font-weight: 100;
-  color: #00abd3;
+  color: #e06711;
   padding: 0 10px;
   margin: 0;
   font-size: 60px;
@@ -1773,8 +1773,8 @@
 }
 
 .sc_skills_style_1 .sc_skills_count.sc_skills_count_s1 {
-  background-color: #1bbde8;
-  border-color: #1bbde8;
+  background-color: #104378;
+  border-color: #104378;
 }
 
 /*=Title==================================================================================================================================================================*/
@@ -1785,7 +1785,7 @@
   color: inherit;
 }
 .sc_title a:hover {
-  color: #00afda;
+  color: #104378;
 }
 .sc_title_underline {
   overflow: hidden;
@@ -2051,7 +2051,7 @@ h6.sc_title .sc_title_icon.sc_title_bg:before,
   font-weight: 300;
 }
 .sc_title.sc_title_color1 {
-  color: #00abd3;
+  color: #e06711;
 }
 
 .sc_undertitle {
@@ -2059,6 +2059,8 @@ h6.sc_title .sc_title_icon.sc_title_bg:before,
 .sc_undertitle_s_1 {
   color: #9ca3a9;
   font-weight: 400;
+  line-height: 1.4;
+  font-size: 20px;
 }
 
 .sc_text_s1 {
@@ -2219,7 +2221,7 @@ h6.sc_title .sc_title_icon.sc_title_bg:before,
   margin: 0;
 }
 .sc_line.sc_line_s2 {
-  border-top-color: #1bbde8;
+  border-top-color: #104378;
 }
 .sc_line.sc_line_s3 {
   border-top-color: #ffa900;
@@ -2868,7 +2870,7 @@ h6.sc_title .sc_title_icon.sc_title_bg:before,
   .sc_testimonials_item_name {
   margin: 0 0 0 60px;
   padding: 7px 0 0 0;
-  color: #1bbde8;
+  color: #104378;
   text-align: left;
   font-size: 24px;
   font-weight: 500;
