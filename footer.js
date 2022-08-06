@@ -8,12 +8,12 @@ class MyFooter extends HTMLElement {
 							<aside class="columns1_4 widgetWrap widget widget_text">
 								<h3 class="title">Address</h3>
 								<div class="textwidget">
-									<figure class="sc_image sc_image_shape_square">
-										<img src="images/logo.png" alt="" />
+									<figure class="sc_image sc_image_shape_square" style="background-color: white; padding: 5px; border-radius: 5px">
+										<img src="images/logo.svg" alt="" />
 									</figure>
 									<br /> 378 Main Street London England
 									<br /> info@blurayconcreting.com.au 
-									<br /> +1 (44) 123-45-67
+									<br /> 0490 088 332,  0469 016 819 
 								</div>
 							</aside>
 							<aside class="columns1_4 widgetWrap widget widget_nav_menu">
@@ -53,7 +53,7 @@ Aggregate, Stencil, Slate as well as Retaining Walls and Earth Excavation Servic
 								<div class="textwidget">
 									<a href="#">
 										<figure class="sc_image  sc_image_shape_square">
-											<img src="images/250x148.png" alt="" />
+											<img src="images/soil.png" alt="" />
 										</figure>
 									</a>
 								</div>

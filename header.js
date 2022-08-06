@@ -28,9 +28,9 @@ class MyHeader extends HTMLElement {
 					<div class="mainmenu_area">
 						<div class="main">
 							<div class="logo logo_left">
-								<a href="index.html">
-									<img src="images/logo.png" class="logo_main" alt="Logo">
-									 <img src="images/logo.png" class="logo_fixed" alt="Logo">
+								<a href="index.html"> 
+									<img src="images/logo.svg" width="60%"  class="logo_main" alt="Logo">
+									 <img src="images/logo.svg" width="60%"  class="logo_fixed" alt="Logo">
 								</a>
 							</div>
 							<div class="responsiveMenu">
