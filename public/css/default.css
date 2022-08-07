@@ -659,7 +659,7 @@ textarea,
 .sc_team .sc_team_item .sc_team_item_title,
 .sliderHomeBullets.slider_alias_13 .textBlock .title,
 body {
-  font-family: "Hind";
+  font-family: "Hind Madurai", sans-serif;
 }
 textarea {
   color: #191d1e;
@@ -724,7 +724,7 @@ strong {
 .openResponsiveMenu,
 .h1,
 .h2 {
-  font-family: "Hind", serif;
+  font-family: "Hind Madurai", sans-serif;
 }
 
 .footerWidget .widgetWrap .title {
@@ -1652,7 +1652,7 @@ footer .inputSubmitAnimation .sInput {
   font-size: 4.14em;
 }
 .sliderHomeBullets.slider_alias_15 .textBlock.text div {
-  font-family: "Hind", sans-serif;
+  font-family: "Hind Madurai", sans-serif;
   font-weight: 400;
   margin: 0;
   background: none;
