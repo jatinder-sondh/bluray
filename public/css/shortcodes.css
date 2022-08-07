@@ -1874,6 +1874,10 @@ a:hover .sc_section + .sc_section {
   color: #fff;
 }
 
+.sc_title {
+  color: #104378;
+}
+
 .sc_title_top {
   margin: 0 auto 10px;
 }
