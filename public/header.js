@@ -38,13 +38,13 @@ class MyHeader extends HTMLElement {
 							</div>
 							<nav class="menuTopWrap topMenuStyleLine">
 								<ul id="mainmenu" class="">
-									<li class="menu-item menu-item-has-children">
+									<li class="menu-item">
 										<a href="index.html">Home</a>
 									</li>
-									<li class="menu-item menu-item-has-children">
+									<li class="menu-item ">
 										<a href="about-us.html">About Us</a>
 									</li>
-									<li class="menu-item menu-item-has-children columns custom_view_item">
+									<li class="menu-item columns custom_view_item">
 										<a href="services.html">Services</a>
 									</li>
 									<li class="menu-item">
