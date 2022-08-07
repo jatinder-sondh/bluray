@@ -1245,9 +1245,13 @@ label.required:before {
   padding-bottom: 0 !important;
 }
 .sc_contact_form_contact_1 input[type="text"],
-.sc_contact_form_contact_1 input[type="password"],
+.sc_contact_form_contact_1 input[type="email"],
+.sc_contact_form_contact_1 input[type="number"],
 .contact_form_1:not(.sc_contact_form_contact_2) input[type="text"],
-.contact_form_1:not(.sc_contact_form_contact_2) input[type="password"] {
+.contact_form_1:not(.sc_contact_form_contact_2)
+  input[type="email"]
+  .contact_form_1:not(.sc_contact_form_contact_2)
+  input[type="number"] {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
@@ -1258,8 +1262,12 @@ label.required:before {
 }
 .rev_slider .sc_contact_form_contact_1 input[type="text"],
 .rev_slider .contact_form_1:not(.sc_contact_form_contact_2) input[type="text"],
+.rev_slider .sc_contact_form_contact_1 input[type="email"],
+.rev_slider .contact_form_1:not(.sc_contact_form_contact_2) input[type="email"],
 .rev_slider .sc_contact_form_contact_2 input[type="text"],
 .rev_slider .sc_contact_form_contact_2.contact_form_1 input[type="text"],
+.rev_slider .sc_contact_form_contact_2 input[type="email"],
+.rev_slider .sc_contact_form_contact_2.contact_form_1 input[type="email"],
 .rev_slider .sc_contact_form_contact_1 input[type="password"],
 .rev_slider
   .contact_form_1:not(.sc_contact_form_contact_2)
@@ -1284,13 +1292,15 @@ label.required:before {
 }
 
 .sc_contact_form_contact_1 input[type="text"],
-.sc_contact_form_contact_1 input[type="password"],
+.sc_contact_form_contact_1 input[type="email"],
+.sc_contact_form_contact_1 input[type="number"],
 .contact_form_1:not(.sc_contact_form_contact_2) input[type="text"],
-.contact_form_1:not(.sc_contact_form_contact_2) input[type="password"],
+.contact_form_1:not(.sc_contact_form_contact_2) input[type="email"],
+.contact_form_1:not(.sc_contact_form_contact_2) input[type="number"],
 .sc_contact_form_contact_1 textarea,
 .contact_form_1:not(.sc_contact_form_contact_2) textarea {
   border: none;
-  color: #b9bbbe;
+  color: #000;
   font-family: inherit;
   font-size: 16px;
   font-weight: 300;
@@ -1305,9 +1315,9 @@ label.required:before {
   border: 1px solid #cfd5d5;
 }
 .sc_contact_form_contact_1 input[type="text"]:focus,
-.sc_contact_form_contact_1 input[type="password"]:focus,
+.sc_contact_form_contact_1 input[type="email"]:focus,
 .contact_form_1:not(.sc_contact_form_contact_2) input[type="text"]:focus,
-.contact_form_1:not(.sc_contact_form_contact_2) input[type="password"]:focus,
+.contact_form_1:not(.sc_contact_form_contact_2) input[type="email"]:focus,
 .sc_contact_form_contact_1 textarea:focus,
 .contact_form_1:not(.sc_contact_form_contact_2) textarea:focus {
   border-color: #bebebe;

@@ -23,27 +23,6 @@
 	<link rel='stylesheet' href='css/responsive.css' type='text/css' media='all' />
 	<link rel='stylesheet' href='css/default-responsive.css' type='text/css' media='all' />
 
-	<!-- contact form -->
-	<script>
-		function sendMail() {
-			var params = {
-				name: document.getElementById('name').value,
-				email: document.getElementById('email').value,
-				phone: document.getElementById('phone').value,
-				message: document.getElementById('message').value
-			}
-			emailjs.send('service_ls3t0xt', 'template_625tsxq', params).then(function (res) {
-				alert('Success! ' + res.status);
-			})
-		}
-	</script>
-	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-	<script type="text/javascript">
-		(function () {
-			emailjs.init('Mg34mU6HdNCwzfb5l');
-		})();
-	</script>
-
 </head>
 
 <body class="page themerex_body wide top_panel_above theme_skin_default with_sidemenu sidemenu_left">
@@ -80,46 +59,42 @@
 															<h2 class="sc_title">Send Us a Message</h2>
 															<div
 																class="sc_contact_form sc_contact_form_contact_1 contact_form_1">
-																<form class="contact" method="post">
-																	<div class="columnsWrap">
-																		<div class="columns1_2">
-																			<div>
-																				<input type="text" name="name"
-																					id="contact_form_username"
-																					placeholder="Name">
-																			</div>
-																			<div>
-																				<input type="text" name="email"
-																					id="contact_form_email"
-																					placeholder="Email">
-																			</div>
-																			<div>
-																				<input type="text" name="phone"
-																					id="contact_form_phone"
-																					placeholder="Phone">
-																			</div>
+																<div class="columnsWrap">
+																	<!-- <form> -->
+																	<div class="columns1_2">
+																		<div>
+																			<input type="text" name="name" id="name"
+																				placeholder="Name" />
 																		</div>
-																		<div class="columns1_2">
-																			<div>
-																				<textarea id="contact_form_message"
-																					class="textAreaSize" name="message"
-																					placeholder="Message"></textarea>
-																			</div>
+																		<div>
+																			<input type="email" name="email" id="email"
+																				placeholder="Email" />
 																		</div>
-																		<div class="columns1_2">
-																			<div class="sc_contact_form_button">
-																				<div
-																					class="sc_button sc_button_style_dark sc_button_size_big dark big">
-																					<button type="submit"
-																						onclick="sendMail()"
-																						name="contact_submit"
-																						class="contact_form_submit">Submit</button>
-																				</div>
+																		<div>
+																			<input type="number" name="phone" id="phone"
+																				placeholder="Phone" />
+																		</div>
+																	</div>
+																	<div class="columns1_2">
+																		<div>
+																			<textarea id="message" class="textAreaSize"
+																				name="message"
+																				placeholder="Message"></textarea>
+																		</div>
+																	</div>
+																	<div class="columns1_2">
+																		<div class="sc_contact_form_button">
+																			<div
+																				class="sc_button sc_button_style_dark sc_button_size_big dark big">
+																				<button type="submit"
+																					onclick="sendMail()"
+																					name="contact_submit"
+																					class="contact_form_submit">Submit</button>
 																			</div>
 																		</div>
 																	</div>
-																	<div class="result sc_infobox"></div>
-																</form>
+																	<!-- </form> -->
+																</div>
 															</div>
 														</div>
 														<div
@@ -159,10 +134,15 @@
 	<script type='text/javascript' src='js/custom/shortcodes_init.min.js'></script>
 	<script type='text/javascript' src='js/custom/_utils.min.js'></script>
 	<script type='text/javascript' src='js/custom/_front.min.js'></script>
-	<script type='text/javascript' src='js/custom/_form_contact.js'></script>
-	<script type='text/javascript' src='http://maps.google.com/maps/api/js?sensor=false'></script>
 
-
+	<!-- contact form -->
+	<script type='text/javascript' src='js/custom/contact.js'></script>
+	<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+	<script type="text/javascript">
+		(function () {
+			emailjs.init('Mg34mU6HdNCwzfb5l');
+		})();
+	</script>
 </body>
 
 </html>
