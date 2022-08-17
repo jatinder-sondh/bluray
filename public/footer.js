@@ -11,7 +11,7 @@ class MyFooter extends HTMLElement {
 									<figure class="sc_image sc_image_shape_square" style="background-color: white; padding: 5px; border-radius: 5px">
 										<img src="images/logo.svg" alt="" />
 									</figure>
-									<br /> 378 Main Street London England
+									<br /> 77 Trullum Blved Michelham 3064
 									<br /> info@blurayconcreting.com.au 
 									<br /> 0490 088 332,  0469 016 819 
 								</div>
