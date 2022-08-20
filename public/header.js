@@ -51,7 +51,7 @@ class MyHeader extends HTMLElement {
 										<a href="gallery.html">Gallery</a>
 									</li>
 									<li class="menu-item">
-										<a href="projects.html">Projects</a>
+										<a href="career.html">Career</a>
 									</li>
 									<li
 										class="sc_button sc_button_style_global global medium appointment-btn_menu menu-item">

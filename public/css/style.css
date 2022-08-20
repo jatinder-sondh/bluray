@@ -13055,3 +13055,12 @@ div.facebook .pp_social {
 div.facebook .pp_description {
   padding-bottom: 0;
 }
+
+.video-btn {
+  background-color: #104378;
+  color: white !important;
+  font-size: 18px !important;
+  padding: 20px !important;
+  border-radius: 10px !important;
+  line-height: 154px !important;
+}

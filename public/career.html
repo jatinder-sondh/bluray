@@ -36,9 +36,9 @@
 				<div class="main">
 					<div class="speedBar">
 						<a class="home" href="#">Home</a><span class="breadcrumbs_delimiter"> / </span><span
-							class="current">Contact Us</span>
+							class="current">Career</span>
 					</div>
-					<h3 class="pageTitle h3">Contact Us</h3>
+					<h3 class="pageTitle h3">Career</h3>
 				</div>
 			</div>
 
@@ -56,15 +56,20 @@
 													<div class="columnsWrap sc_columns sc_columns_count_3">
 														<div
 															class="columns2_3 sc_column_item sc_column_item_1 odd first span_2 bm_20">
-															<h2 class="sc_title">Send Us a Message</h2>
+															<h2 class="sc_title">Send Us a Details </h2>
 															<div
 																class="sc_contact_form sc_contact_form_contact_1 contact_form_1">
 																<div class="columnsWrap">
 																	<!-- <form> -->
 																	<div class="columns1_2">
 																		<div>
-																			<input type="text" name="name" id="name"
-																				placeholder="Name" />
+																			<input type="text" name="firstName"
+																				id="firstName"
+																				placeholder="First Name" />
+																		</div>
+																		<div>
+																			<input type="text" name="lastName"
+																				id="lastName" placeholder="Last Name" />
 																		</div>
 																		<div>
 																			<input type="email" name="email" id="email"
@@ -77,9 +82,13 @@
 																	</div>
 																	<div class="columns1_2">
 																		<div>
-																			<textarea id="message" class="textAreaSize"
-																				name="message"
-																				placeholder="Message"></textarea>
+																			<input type="text" name="applyFor"
+																				id="applyFor" placeholder="Apply For" />
+																		</div>
+																		<div>
+																			<textarea id="coverLetter"
+																				class="textAreaSize" name="coverLetter"
+																				placeholder="Cover Letter"></textarea>
 																		</div>
 																	</div>
 																	<div class="columns1_2">
@@ -87,10 +96,9 @@
 																			<div
 																				class="sc_button sc_button_style_dark sc_button_size_big dark big">
 																				<button type="submit"
-																					onclick="sendMail()"
+																					onclick="sendMailCareer()"
 																					name="contact_submit"
-																					class="contact_form_submit">Contact
-																					for Free Quote</button>
+																					class="contact_form_submit">Submit</button>
 																			</div>
 																		</div>
 																	</div>
