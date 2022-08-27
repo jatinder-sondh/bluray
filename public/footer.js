@@ -65,18 +65,7 @@ Aggregate, Stencil, Slate as well as Retaining Walls and Earth Excavation Servic
 					<div class="copy main">
 						<div class="copyright">&copy; 2022 All Rights Reserved
 						</div>
-						<div class="copy_socials socPage">
-							<ul>
-								<li>
-									<a class="social_icons icon-tumblr" target="_blank" href="http://twitter.com">
-									</a>
-								</li>
-								<li>
-									<a class="social_icons icon-facebook" target="_blank" href="http://facebook.com">
-									</a>
-								</li>
-							</ul>
-						</div>
+						
 					</div>
 				</div>
 			</div>

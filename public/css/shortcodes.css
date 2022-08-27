@@ -103,6 +103,7 @@
   left: 14px;
   background-color: #fff !important;
   color: #ddd !important;
+  content: "+";
 }
 .sc_accordion .sc_accordion_item.sc_active .sc_accordion_title:before {
   content: "-";
@@ -150,6 +151,7 @@
   border: 4px solid #dddddd;
   top: 12px;
   right: 10px;
+  content: "+";
 }
 
 /*accordion style 3*/
@@ -184,11 +186,13 @@
   top: 12px;
   right: 10px;
   color: #fff;
+  content: "+";
 }
 .sc_accordion.sc_accordion_style_3
   .sc_accordion_item.sc_active
   .sc_accordion_title:before {
   border-color: #ddd;
+  content: "+";
 }
 
 /*accordion large*/
